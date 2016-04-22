@@ -1,0 +1,120 @@
+/*O meu rosto*/
+#perfil{
+	height:22em;
+	width:22em;
+	box-shadow: 1em 1em 1em #808080;
+	margin-left:0.1em;
+}
+body{
+	background-image: url(http://www.decorapapeldeparede.com.br/media/catalog/product/cache/1/image/1200x1200/9df78eab33525d08d6e5fb8d27136e95/p/a/papel_de_parede_bicicletas_ff013.jpg);
+}
+
+/*A parte do topo*/
+.topo{
+	height:5em;
+	background:rgba(255,218,185,0.9);
+	clear:top;
+	border: 1px dashed red;
+	margin: 0.1em 4em 1em 4em;
+}
+
+#site_name{
+	height:3em;
+	width: 20em;
+	margin-top:1em;
+	margin-bottom:1em;
+	margin-left:1em;
+	border: 1px dashed blue;
+	display:inline-block;
+}
+
+#nav_bar{
+	height:3em;
+	width: 40em;
+	margin-top:1em;
+	margin-bottom:1em;
+	margin-right:1em;
+	border: 1px dashed blue;
+	float:right;
+	display:inline-block;
+}
+
+#nav_button{
+	height:3em;
+	width:4em;
+	border: 1px dashed blue;
+	display:inline-block;
+}
+
+
+/*corpo do site*/
+.body{
+	margin: 0.1em 4em 1em 4em;
+	/*border:1px dashed black;*/
+	margin-top:-1em;
+}
+
+
+/*Parte esquerda do site*/
+.left{
+	height:90em;
+	/*border: 1px dashed red;*/
+	display:inline-block;
+	width: 30.5%;
+}
+
+#main-left{
+	height:50em;
+	background:rgba(1000,1000,1000,0.8);
+	/*border-right:0.1em solid #000000;*/
+}
+
+#bottom-left{
+	height:20em;
+	background:rgba(1000,1000,1000,0.8);
+	/*border-right:0.1em solid #000000;
+	border-top: 0.1em solid #000000;*/
+}
+
+
+/*Parte direita*/
+.right{
+	height:90em;
+	border: 1px dashed green;
+	float:right;
+	width:69.1%;
+	margin-top: -90em;
+}
+
+
+#top-right{
+	height:30em;
+	background:rgba(1000,1000,1000,0.8);
+	/*border-left:0.1em solid #000000;*/
+	margin-top:-1.28em;
+	/*margin-left:-0.28em;*/
+}
+
+#mid-right{
+	height:50em;
+	background:rgba(1000,1000,1000,0.8);
+	/*border-left:0.1em solid #000000;
+	border-top:0.1em solid #000000;
+	margin-left:-0.28em;*/
+	margin-top:-1.28em;
+}
+
+#bottom-right{
+	height:10em;
+	background:rgba(1000,1000,1000,0.8);
+	/*border-left:0.1em solid #000000;
+	border-top:0.1em solid #000000;
+	margin-left:-0.28em;*/
+	margin-top:-1.28em;
+}
+
+
+#site_name{
+	
+}
+
