@@ -50,7 +50,7 @@ body{
 /*corpo do site*/
 .body{
 	margin: 0.1em 4em 1em 4em;
-	/*border:1px dashed black;*/
+	border:0.01em dashed white;
 	margin-top:-1em;
 }
 
@@ -58,7 +58,6 @@ body{
 /*Parte esquerda do site*/
 .left{
 	height:90em;
-	/*border: 1px dashed red;*/
 	display:inline-block;
 	width: 30.5%;
 }
@@ -72,18 +71,16 @@ body{
 #bottom-left{
 	height:20em;
 	background:rgba(1000,1000,1000,0.8);
-	/*border-right:0.1em solid #000000;
-	border-top: 0.1em solid #000000;*/
+	border:1px solid #000000;
+	/*border-top: 0.1em solid #000000;*/
 }
 
 
 /*Parte direita*/
 .right{
 	height:90em;
-	border: 1px dashed green;
 	float:right;
-	width:68%;
-	/*margin-top: -90em;*/
+	width:69.1%;
 }
 
 
